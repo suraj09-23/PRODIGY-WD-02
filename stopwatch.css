@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: rgb(94, 85, 214);
+  }
+
+  h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 3em;
+    color: rgba(255, 255, 255, 0.965);
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+    text-shadow: 0 0.1em 0.2em rgba(0, 0, 0, 0.2);
+  }
+  
+  .container {
+    background-color: rgb(36, 209, 209);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    width: min(90%, 31.25em);
+    padding: 3.75em 0;
+    border-radius: 0.8em;
+    box-shadow: 0 1.97em 3.75em rgba(252, 252, 252, 0.2);
+  }
+  
+  .timer-display {
+    position: relative;
+    width: 110%;
+    background-color: #087960;
+    left: -5%;
+    padding: 1em 0;
+    font-family: "Roboto Mono", monospace;
+    color: #fdfdfd;
+    font-size: 2.5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 0.3em;
+    box-shadow: 0 0.5em 1em rgba(1, 87, 185, 0.2);
+  }
+  
+  .lap-times {
+    margin-top: 1.5em;
+    margin-left: 7em; 
+    margin-right: 7em;
+  }
+  
+  .lap-times h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5em;
+    color: #93b5db;
+  }
+  
+  .lap-times ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .lap-times li {
+    font-family: "Roboto Mono", monospace;
+    font-size: 1.2em;
+    color: #fdfdfd;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    background-color: #087960;
+    margin-top: 0.5em;
+    box-shadow: 0 0.2em 0.5em rgba(1, 87, 185, 0.2);
+  }
+  
+  .buttons {
+    width: 80%;
+    margin: 3.8em auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .buttons button {
+    font-size: 1.12em;
+    background-color: #dbe9ff;
+    color: #3c98ff;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    border-radius: 20%;
+    padding: 1em 1.5em;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  #start-timer {
+    background-color: #3c98ff;
+    color: #f0f9ff;
+  }
+  
